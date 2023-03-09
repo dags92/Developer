@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experior.Catalog.Developer", "Experior.Catalog.Developer.csproj", "{7CB99234-46B0-4CEC-A1B5-DBE09B422A35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CB99234-46B0-4CEC-A1B5-DBE09B422A35}.Debug|x64.ActiveCfg = Debug|x64
+		{7CB99234-46B0-4CEC-A1B5-DBE09B422A35}.Debug|x64.Build.0 = Debug|x64
+		{7CB99234-46B0-4CEC-A1B5-DBE09B422A35}.Release|x64.ActiveCfg = Release|x64
+		{7CB99234-46B0-4CEC-A1B5-DBE09B422A35}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21276BC9-20AA-425B-B36D-6C92797F276E}
+	EndGlobalSection
+EndGlobal
