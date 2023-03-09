@@ -15,6 +15,7 @@ namespace Experior.Catalog.Developer
             #region Beginner
 
             Add(Common.Icon.Get("Sample0"), "Beginner", "Dimensions", Simulation, Create.Sample0);
+            Add(Common.Icon.Get("Sample1"), "Beginner", "Position/Orientation", Simulation, Create.Sample1);
 
             #endregion
         }

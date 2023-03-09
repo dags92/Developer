@@ -13,7 +13,7 @@ namespace Experior.Catalog.Developer.Assemblies.Beginner
         #region Fields
 
         private readonly Sample0Info _info;
-        private Experior.Core.Parts.Box _box;
+        private readonly Experior.Core.Parts.Box _box;
 
         #endregion
 
@@ -90,7 +90,7 @@ namespace Experior.Catalog.Developer.Assemblies.Beginner
 
         public override string Category => "Developer - Beginner";
 
-        public override ImageSource Image => Common.Icon?.Get("Sample0");
+        public override ImageSource Image => Common.Icon.Get("Sample0");
 
         #endregion
 
@@ -117,7 +117,7 @@ namespace Experior.Catalog.Developer.Assemblies.Beginner
                           "\n Objective: Change of box dimensions through the property grid" +
                           "\n --------------------------------------------------------------------------------------------";
 
-            Log.Write(message, Colors.LimeGreen, LogFilter.Information);
+            Log.Write(message, Colors.Green, LogFilter.Information);
         }
 
         #endregion

@@ -26,6 +26,19 @@ namespace Experior.Catalog.Developer
             return assembly;
         }
 
+        public static Assembly Sample1(string title, string subtitle, object properties)
+        {
+            var info = new Sample1Info
+            {
+                name = Assembly.GetValidName("Position/Orientation "),
+                length = 0.4f,
+                width = 0.4f,
+                height = 0.4f
+            };
+            var assembly = new Sample1(info);
+            return assembly;
+        }
+
         #endregion
     }
 }
